@@ -107,3 +107,11 @@ Once the values converge, the agent implicitly knows which states are better and
 
 
       <img width="644" height="622" alt="image" src="https://github.com/user-attachments/assets/e184106d-92a8-4975-b895-207662fb8aff" />
+
+The value function shows the expected cumulative reward (negative steps) from each state to the goal:
+
+- State 15 (bottom-right): V(15) = 0 ✅ Terminal state
+- State 14 (one step from goal): V(14) ≈ -29.99 (approximately 30 steps)
+- State 0 (top-left, start): V(0) ≈ -59.42 (approximately 59 steps)
+
+The values increase (become less negative) as we move closer to the terminal state, indicating shorter paths to the goal.
