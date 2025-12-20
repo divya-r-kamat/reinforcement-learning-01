@@ -1,7 +1,7 @@
 
 # Deep Q-Network (DQN) for Autonomous Navigation
 
-This project implements an autonomous navigation system using **Deep Q-Learning (DQN)** with **Prioritized Experience Replay** to train an agent (car/robot) to navigate through a complex urban city environment and reach multiple sequential targets efficiently.
+This project implements an autonomous navigation system using **Deep Q-Learning (DQN)** with **Prioritized Experience Replay** to train an agent car to navigate through a complex urban city environment and reach multiple sequential targets efficiently.
 
 The agent learns directly from sensor data and target-relative information, enabling intelligent decision-making in a realistic, obstacle-rich city map inspired by Paris.
 
